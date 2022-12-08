@@ -1,0 +1,153 @@
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                   MATHEMATICAL & PHYSICAL QUANTITIES                      ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+% constant
+\newcommand{\const}{\text{const.}}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                         MATHEMATICAL FUNCTIONS                            ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+\DeclareMathOperator\arcsinh{arcsinh}
+\DeclareMathOperator\arccosh{arccosh}
+\DeclareMathOperator\arctanh{arctanh}
+\newcommand{\tr}[0]{\textnormal{tr}}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                         MATHEMATICAL OPERATORS                            ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+%                                                              total derivative
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\dd}[0]{\textnormal{d}}
+\newcommand{\dx}{\dd x}
+\newcommand{\dt}{\dd t}
+\newcommand{\deriv}[2]{\frac{\dd #1}{\dd #2}}
+\newcommand{\dderiv}[2]{\frac{\dd^2 #1}{\dd #2 ^2}}
+%                                                            partial derivative
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\del}[0]{\partial}
+\newcommand{\pderiv}[2]{\frac{\del #1}{\del #2}}
+\newcommand{\pdderiv}[2]{\frac{\del^2 #1}{\del #2 ^2}}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                          PHYSICAL OPERATORS                               ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+%                                                                    Lagrangian
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\Lagr}{\mathcal L}
+%                                                                   Hamiltonian
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\Ham}{\mathcal H}
+\newcommand{\hatH}{\hat H}
+\newcommand{\hatHam}{\hat{\mathcal H}}
+%                                             position operator (in pos. basis)
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\hatx}{\hat{x}}
+%                                             momentum operator (in pos. basis)
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\hatp}{\hat{p}}
+\newcommand{\qmp}{-i\hbar\del_x}
+% \newcommand{\qmp}{-i\hbar\pderiv{}{x}}
+%                                                     angular momentum operator
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\hatL}{\hat L}
+%                                                                 spin operator
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\hatS}{\hat S}
+%                                                    shorthand bra-ket notation
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\bra}{\langle}
+\newcommand{\ket}{\rangle}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                            PHYSICAL UNITS                                 ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+%                                                                 base SI units
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\kg}{\text{kg}}
+\newcommand{\m}{\text{m}}
+\newcommand{\s}{\text{s}}
+\newcommand{\K}{\text{K}}
+\newcommand{\C}{\text{C}}
+\newcommand{\mol}{\text{mol}}
+\newcommand{\cd}{\text{cd}}
+%                                                              derived SI units
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\g}{\text{g}}
+\newcommand{\T}{\text{T}}
+\newcommand{\F}{\text{F}}
+\newcommand{\J}{\text{J}}
+\newcommand{\W}{\text{W}}
+\newcommand{\N}{\text{N}}
+\newcommand{\eV}{\text{eV}}
+\newcommand{\pc}{\text{pc}}
+%                                                             prefixed SI units
+% ─────────────────────────────────────────────────────────────────────────────
+\newcommand{\nm}{\text{nm}}
+\newcommand{\mum}{\mu\text{m}}
+\newcommand{\mm}{\text{mm}}
+\newcommand{\cm}{\text{cm}}
+\newcommand{\km}{\text{km}}
+\newcommand{\keV}{\text{keV}}
+\newcommand{\MeV}{\text{MeV}}
+\newcommand{\GeV}{\text{GeV}}
+\newcommand{\kpc}{\text{kpc}}
+\newcommand{\Mpc}{\text{Mpc}}
+\newcommand{\Gpc}{\text{Gpc}}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                              TEXT COLORS                                  ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                           TABLE OF CONTENTS                               ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+\setcounter{tocdepth}{2}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                               LIST ITEMS                                  ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+\renewcommand{\labelitemi}{-}
+\renewcommand{\labelitemii}{-}
+\renewcommand{\labelitemiii}{-}
+\renewcommand{\labelitemiv}{-}
+% \renewcommand{\labelitemi}{$\circ$}
+% \renewcommand{\labelitemii}{$\circ$}
+% \renewcommand{\labelitemiii}{$\circ$}
+% \renewcommand{\labelitemiv}{$\circ$}
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                              CODE LISTINGS                                ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+% \lstset{ %
+%   backgroundcolor=\color{red},     % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+%   basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+%   breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+%   breaklines=true,                 % sets automatic line breaking
+%   captionpos=b,                    % sets the caption-position to bottom
+%   commentstyle=\color{commentsColor}\textit,    % comment style
+%   deletekeywords={...},            % if you want to delete keywords from the given language
+%   escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+%   extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+%   frame=tb,	                   	   % adds a frame around the code
+%   keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+%   keywordstyle=\color{keywordsColor}\bfseries,       % keyword style
+%   language=Python,                 % the language of the code (can be overrided per snippet)
+%   otherkeywords={*,...},           % if you want to add more keywords to the set
+%   numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+%   numbersep=5pt,                   % how far the line-numbers are from the code
+%   numberstyle=\tiny\color{commentsColor}, % the style that is used for the line-numbers
+%   rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+%   showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+%   showstringspaces=false,          % underline spaces within strings only
+%   showtabs=false,                  % show tabs within strings adding particular underscores
+%   stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+%   stringstyle=\color{stringColor}, % string literal style
+%   tabsize=2,	                   % sets default tabsize to 2 spaces
+%   title=\lstname,                  % show the filename of files included with \lstinputlisting; also try caption instead of title
+%   columns=fixed                    % Using fixed column width (for e.g. nice alignment)
+% }
+% ╔═══════════════════════════════════════════════════════════════════════════╗
+% ║                                  HEADER                                   ║
+% ╚═══════════════════════════════════════════════════════════════════════════╝
+% \pagestyle{fancy}
+% \thispagestyle{fancy}
+% \fancyhf{}
+% \lhead{Theory Tooltips}
+% \chead{Exercises}
+% \rhead{V. C. Mader}
+% \setlength{\headheight}{15pt}
