@@ -1,0 +1,2 @@
+#+LaTeX_HEADER: \input{~/.config/tex/base.tex}
+#+LaTeX_HEADER: \input{~/.config/tex/packages.tex}
