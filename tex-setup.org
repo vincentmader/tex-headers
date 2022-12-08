@@ -1,2 +1,3 @@
-#+LaTeX_HEADER: \input{~/.config/tex/base.tex}
-#+LaTeX_HEADER: \input{~/.config/tex/packages.tex}
+#+latex_header: \input{~/.config/tex/base.tex}
+#+latex_header: \input{~/.config/tex/packages.tex}
+#+latex_header_extra: \input{~/.config/tex/header-extra.tex}
